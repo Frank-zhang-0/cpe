@@ -1,4 +1,4 @@
-/*width.c--×Ö¶Î¿í¶È*/
+/*width.c--å­—æ®µå®½åº¦*/
 #include <stdio.h>
 #define PAGES 959
 int main(void)
