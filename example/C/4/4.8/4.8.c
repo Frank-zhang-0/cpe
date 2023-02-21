@@ -1,5 +1,6 @@
 //float.c--一些浮点型修饰符的组合
 #include <stdio.h>
+#include <stdlib.h>
 int main(void)
 {
     const double RENT = 3852.99;    //* const 变量
@@ -13,6 +14,7 @@ int main(void)
     printf("*%+4.2f*\n", RENT);
     printf("*%010.2f*\n", RENT);
 
+    system("PAUSE");
     return 0;
 
 }
