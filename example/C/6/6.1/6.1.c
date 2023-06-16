@@ -9,7 +9,7 @@ int main(void)
     printf("Please enter an integer to be summed ");
     printf("(q to quit): ");
     status = scanf("%d", &num);
-    while (status == 1)     /*==的意思是等于*/
+    while (status == 1)     /*==的意思是“等于”*/
     {
         sum = sum + num;    
         printf("Please enter next integer (q = to quit): ");
