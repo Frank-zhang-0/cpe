@@ -1,4 +1,4 @@
-/*while.c--注意花括号的使用*/
+/*while1.c--注意花括号的使用*/
 /*糟糕的代码创建了一个无限循环*/
 #include <stdio.h>
 int main(void)
