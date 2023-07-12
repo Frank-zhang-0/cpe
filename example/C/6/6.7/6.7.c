@@ -1,4 +1,4 @@
-//truth.c--那些为真
+//truth.c--哪些为真
 #include <stdio.h>
 int main(void)
 {
