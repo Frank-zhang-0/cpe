@@ -1,20 +1,20 @@
-/*编写一个程序，提示用户输入一个整数，然后打印该数到必该数大10的所有整数
-（例如，用户输入输入5，则打印5~15的所有整数。包括5和15）。
-要求打印的各值之间用一个空格、制表符或换行符隔开。*/
+/*编写一个程序，提示用户输入名字，并执行以下操作：
+    a.打印名字，包括双引号；
+    b.在宽度为20的字段右端打印名字，包括双引号；
+    c.在宽度为20的字段左端打印名字，包括双引号；
+    d.在比姓名宽度宽3的字段中打印名字；
+*/
 #include <stdio.h>
+#include <string.h>
 int main(void)
 {
-    int number;
-    int i = 0;
+    char name[40];
 
-    printf("请输入一个整数：");
-    scanf("%d", &number);
-    while(i <= 10)
-        {
-            printf("%d\n", number);
-            number++;
-            i++;
-        }
-    
+    printf("Please enter your name: \n");
+    scanf("%s", name);
+    printf("Your name: \"%20s\"\n", name);
+    printf("Your name: \"%-20s\"\n", name);
+    printf("Your name: \"%*s\"\n", strlen(name)+3, name);
+
     return 0;
 }
