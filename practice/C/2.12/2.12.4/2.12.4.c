@@ -1,12 +1,12 @@
 /*
-±àÐ´Ò»¸ö³ÌÐò£¬Éú³ÉÒÔÏÂÊä³ö£º
-For he's a jolly good fellow!
-For he's a jolly good fellow!
-For he's a jolly good fellow!
-Which nobody can deny!
-³ýÁËmain()º¯ÊýÒÔÍâ£¬ÔÙµ÷ÓÃÁ½¸ö×Ô¶¨Òåº¯Êý£º
-Ò»¸öº¯ÊýÃûÎªjolly()£¬ÓÃÓÚ´òÓ¡Ç°ÈýÌõÄÚÈÝ£¬µ÷ÓÃÒ»´Î´òÓ¡Ò»Ìõ;
-ÁíÒ»¸öº¯ÊýÃûÎªdeny()£¬ÓÃÓÚ´òÓ¡×îºóÒ»ÌõÄÚÈÝ¡£
+ *ç¼–å†™ä¸€ä¸ªç¨‹åºï¼Œç”Ÿæˆä»¥ä¸‹è¾“å‡ºï¼š
+ *For he's a jolly good fellow!
+ *For he's a jolly good fellow!
+ *For he's a jolly good fellow!
+ *Which nobody can deny!
+ *é™¤äº†main()å‡½æ•°ä»¥å¤–ï¼Œå†è°ƒç”¨ä¸¤ä¸ªè‡ªå®šä¹‰å‡½æ•°ï¼š
+ *ä¸€ä¸ªå‡½æ•°åä¸ºjolly()ï¼Œç”¨äºŽæ‰“å°å‰ä¸‰æ¡å†…å®¹ï¼Œè°ƒç”¨ä¸€æ¬¡æ‰“å°ä¸€æ¡;
+ *å¦ä¸€ä¸ªå‡½æ•°åä¸ºdeny()ï¼Œç”¨äºŽæ‰“å°æœ€åŽä¸€æ¡å†…å®¹ã€‚
 */
 #include <stdio.h>
 void jolly(void);

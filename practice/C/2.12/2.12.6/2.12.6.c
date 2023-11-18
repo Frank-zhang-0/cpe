@@ -1,7 +1,7 @@
 /*
-´´½¨Ò»¸öÕûÐÍ±äÁ¿toes£¬²¢½«toesÉèÖÃÎª10.
-³ÌÐòÖÐ»¹Òª¼ÆËãtoesµÄÁ½±¶ºÍtoesµÄÆ½·½¡£
-¸Ã³ÌÐòÓ¦´òÓ¡3¸öÖµ£¬²¢·Ö±ðÃèÊöÒÔÊ¾Çø·Ö¡£
+ *åˆ›å»ºä¸€ä¸ªæ•´åž‹å˜é‡toesï¼Œå¹¶å°†toesè®¾ç½®ä¸º10.
+ *ç¨‹åºä¸­è¿˜è¦è®¡ç®—toesçš„ä¸¤å€å’Œtoesçš„å¹³æ–¹ã€‚
+ *è¯¥ç¨‹åºåº”æ‰“å°3ä¸ªå€¼ï¼Œå¹¶åˆ†åˆ«æè¿°ä»¥ç¤ºåŒºåˆ†ã€‚
 */
 #include <stdio.h>
 int main(void)

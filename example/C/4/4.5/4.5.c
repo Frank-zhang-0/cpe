@@ -1,4 +1,4 @@
-//defines.c--Ê¹ÓÃlimit.hºÍfloatÍ·ÎÄ¼şÖĞ¶¨ÒåµÄÃ÷Ê¾³£Á¿
+//defines.c--ä½¿ç”¨limit.hå’Œfloatå¤´æ–‡ä»¶ä¸­å®šä¹‰çš„æ˜ç¤ºå¸¸é‡
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>

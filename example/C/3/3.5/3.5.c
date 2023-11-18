@@ -1,11 +1,13 @@
-/*charcode.c--ÏÔÊ¾×Ö·ûµÄ´úÂë±àºÅ*/
+/*
+ *charcode.c--æ˜¾ç¤ºå­—ç¬¦çš„ä»£ç ç¼–å·
+*/
 #include <stdio.h>
 int main(void)
 {
     char ch;
 
     printf("Please enter a character.\n");
-    scanf("%c",&ch);    /*ÓÃ»§ÊäÈë×Ö·û*/
+    scanf("%c",&ch);    //*ç”¨æˆ·è¾“å…¥å­—ç¬¦*/
     getchar();
     printf("The code for %c is %d.\n",ch,ch);
     getchar();

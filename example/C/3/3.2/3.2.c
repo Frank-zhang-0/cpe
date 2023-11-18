@@ -1,4 +1,6 @@
-/*printl.c -- ÑÝÊ¾printf()µÄÒ»Ð©ÌØÐÔ*/
+/*
+ *printl.c -- æ¼”ç¤ºprintf()çš„ä¸€äº›ç‰¹æ€§
+*/
 #include <stdio.h>
 int main(void)
 {

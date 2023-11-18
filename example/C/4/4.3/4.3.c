@@ -1,7 +1,7 @@
 /*praise2.c*/
-//Èç¹û±àÒëÆ÷²»Ê¶±ğ%zd£¬³¢ÊÔ»»³É %u»ò %lu¡£
+//å¦‚æœç¼–è¯‘å™¨ä¸è¯†åˆ«%zdï¼Œå°è¯•æ¢æˆ %uæˆ– %luã€‚
 #include <stdio.h>
-#include <string.h>     /*Ìá¹©strlen()º¯ÊıµÄÔ­ĞÍ*/
+#include <string.h>     /*æä¾›strlen()å‡½æ•°çš„åŸå‹*/
 #define PRAISE "You are an extraordinary being."
 int main(void)
 {

@@ -1,7 +1,7 @@
 /*
-±àĞ´Ò»¸ö³ÌĞò£¬·¢³öÒ»Éù¾¯±¨£¬È»ºó´òÓ¡ÏÂÃæµÄÎÄ±¾:
-Startled by the sudden sound,Sally shouted,
-"By the Great Pumpkin,what was that!"
+ *ç¼–å†™ä¸€ä¸ªç¨‹åºï¼Œå‘å‡ºä¸€å£°è­¦æŠ¥ï¼Œç„¶åæ‰“å°ä¸‹é¢çš„æ–‡æœ¬:
+ *Startled by the sudden sound,Sally shouted,
+ *"By the Great Pumpkin,what was that!"
 */
 #include <stdio.h>
 int main(void)

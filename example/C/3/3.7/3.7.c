@@ -1,4 +1,6 @@
-/*showf_pt.c--ÒÔÁ½ÖÖ·½Ê½ÏÔÊ¾floatÀàĞÍµÄÖµ*/
+/*
+ *showf_pt.c--ä»¥ä¸¤ç§æ–¹å¼æ˜¾ç¤ºfloatç±»å‹çš„å€¼
+*/
 #include <stdio.h>
 int main(void)
 {
@@ -7,7 +9,7 @@ int main(void)
     long double dip = 5.32e-5;
 
     printf("%f can be written %e\n",aboat,aboat);
-    //ÏÂÒ»ĞĞÒªÇó±àÒëÆ÷Ö§³Öc99»òÆäÖĞµÄÏà¹ØÌØĞÔ
+    //*ä¸‹ä¸€è¡Œè¦æ±‚ç¼–è¯‘å™¨æ”¯æŒc99æˆ–å…¶ä¸­çš„ç›¸å…³ç‰¹æ€§
     printf("And it's %d in hexadecimal,powers of 2 notation\n",aboat);
     printf("%f can be written %e\n",abet,abet);
     printf("%Lf can be written %Le\n",dip,dip);

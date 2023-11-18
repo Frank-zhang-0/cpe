@@ -1,4 +1,4 @@
-/*printout.c --使用转换说明*/
+/*printout.c --浣跨敤杞崲璇存槑*/
 #include <stdio.h>
 #define PI 3.141593
 int main(void)

@@ -1,4 +1,4 @@
-/*pizza.c -- ÔÚ±ÈÈø±ý³ÌÐòÖÐÊ¹ÓÃÒÑ¶¨ÒåµÄ³£Á¿*/
+/*pizza.c -- åœ¨æ¯”è¨é¥¼ç¨‹åºä¸­ä½¿ç”¨å·²å®šä¹‰çš„å¸¸é‡*/
 #include <stdio.h>
 #define PI 3.14159
 int main(void)

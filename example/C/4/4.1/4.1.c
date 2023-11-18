@@ -1,12 +1,12 @@
-//talkback.c -- ÑİÊ¾ÓëÓÃ»§½»»¥
+//talkback.c -- æ¼”ç¤ºä¸ç”¨æˆ·äº¤äº’
 #include <stdio.h>
-#include <string.h>     //Ìá¹©strlen()º¯ÊıµÄÔ­ĞÍ
-#define DENSITY 62.4    //ÈËÌåÃÜ¶È£¨µ¥Î»£º°õ/Á¢·½Ó¢³ß£©
+#include <string.h>     //æä¾›strlen()å‡½æ•°çš„åŸå‹
+#define DENSITY 62.4    //äººä½“å¯†åº¦ï¼ˆå•ä½ï¼šç£…/ç«‹æ–¹è‹±å°ºï¼‰
 int main()
 {
     float weight,volume;
     int size,letters;
-    char name[40];      //nameÊÇÒ»¸ö¿ÉÈİÄÉ40¸ö×Ö·ûµÄÊı×é
+    char name[40];      //nameæ˜¯ä¸€ä¸ªå¯å®¹çº³40ä¸ªå­—ç¬¦çš„æ•°ç»„
 
     printf("Hi! What's your first name?\n");
     scanf("%s", name);

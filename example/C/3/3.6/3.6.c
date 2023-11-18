@@ -1,9 +1,11 @@
-/*altnames.c--¿ÉÒÆÖ²ÕûÊıÀàĞÍÃû*/
+/*
+ *altnames.c--å¯ç§»æ¤æ•´æ•°ç±»å‹å
+*/
 #include <stdio.h>
-#include <inttypes.h>   //Ö§³Ö¿ÉÒÆÖ²ÀàĞÍ
+#include <inttypes.h>   //*æ”¯æŒå¯ç§»æ¤ç±»å‹
 int main(void)
 {
-    int32_t me32;   //me32ÊÇÒ»¸ö32Î»ÓĞ·ûºÅÕûĞÍ±äÁ¿
+    int32_t me32;   //*me32æ˜¯ä¸€ä¸ª32ä½æœ‰ç¬¦å·æ•´å‹å˜é‡
 
     me32 = 45933945;
     printf("First,assume int32_t is int: ");

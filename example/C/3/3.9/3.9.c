@@ -1,4 +1,6 @@
-/*badcount.c--²ÎÊı´íÎóµÄÇé¿ö*/
+/*
+ *badcount.c--å‚æ•°é”™è¯¯çš„æƒ…å†µ
+*/
 #include <stdio.h>
 int main(void)
 {
@@ -7,9 +9,9 @@ int main(void)
     float f = 7.0f;
     float g = 8.0f;
 
-    printf("%d\n",n,m); /*²ÎÊıÌ«¶à*/
-    printf("%d %d %d\n",n); /*²ÎÊıÌ«ÉÙ*/
-    printf("%d %d\n",f,g);  /*ÖµµÄÀàĞÍ²»Æ¥Åä*/
+    printf("%d\n",n,m); //*å‚æ•°å¤ªå¤š*/
+    printf("%d %d %d\n",n); //*å‚æ•°å¤ªå°‘*/
+    printf("%d %d\n",f,g);  //*å€¼çš„ç±»å‹ä¸åŒ¹é…*/
     getchar();
 
     return 0;

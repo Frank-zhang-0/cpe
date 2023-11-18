@@ -1,4 +1,4 @@
-/*praise1.c--使用不同类型的字符串*/
+/*praise1.c--浣跨敤涓嶅悓绫诲瀷鐨勫瓧绗︿覆*/
 #include <stdio.h>
 #define PRAISE "You are an extraordinary being."
 int main(void)

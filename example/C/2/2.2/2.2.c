@@ -1,4 +1,4 @@
-//fathm_ft.c -- °Ñ2ÒôÑ°×ª»»³ÉÓ¢´ç
+//*fathm_ft.c -- æŠŠ2éŸ³å¯»è½¬æ¢æˆè‹±å¯¸
 #include <stdio.h>
 int main(void)
 {

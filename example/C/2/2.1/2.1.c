@@ -1,4 +1,6 @@
-/*first.c -- 简单的C程序示例*/
+/*
+ *first.c -- 绠�鍗曠殑C绋嬪簭绀轰緥
+*/
 #include <stdio.h>
 int main(void)
 {

@@ -1,13 +1,13 @@
 /*
-    ´òÓ¡ÄãµÄĞÕÃûºÍµØÖ·
+ *  æ‰“å°ä½ çš„å§“åå’Œåœ°å€
 */
 #include <stdio.h>
 int main(void)
 {
-    printf("ĞÕÃû£º");
-    printf("ÕÅµ©Ç¿\n");
-    printf("µØÖ·£º");
-    printf("½­Î÷Ê¡¼ª°²ÊĞ\n");
+    printf("å§“åï¼š");
+    printf("å¼ æ—¦å¼º\n");
+    printf("åœ°å€ï¼š");
+    printf("æ±Ÿè¥¿çœå‰å®‰å¸‚\n");
     getchar();
     return 0;
 }
