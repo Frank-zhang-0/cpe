@@ -4,3 +4,15 @@
  *  a.  The input is 21.3 or 2.1e+001.
  *  b.  The input is +21.290 or 2.129E+001.
 */
+#include <stdio.h>
+int main()
+{
+    float num;
+
+    printf("请输入一个浮点数：");
+    scanf("%f", &num);
+    printf("a.  The input is %f or %e.\n", num, num);
+    printf("b.  The input is %f or %E", num, num);
+
+    return 0;
+}
