@@ -10,8 +10,8 @@ int main()
     char name[40];
     float tall;
 
-    printf("请输入您的姓名和身高（单位：厘米）：");
-    scanf("%s %f", name, &tall);
+    printf("请输入您的身高和姓名（单位：厘米）：");
+    scanf("%f %s", &tall, name);
     printf("%s, you are %.3f metre tall\n", name, tall/100);
 
     return 0;
