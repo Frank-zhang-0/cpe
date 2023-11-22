@@ -5,7 +5,7 @@
  *  b.  The input is +21.290 or 2.129E+001.
 */
 #include <stdio.h>
-int main()
+int main(void)
 {
     float num;
 

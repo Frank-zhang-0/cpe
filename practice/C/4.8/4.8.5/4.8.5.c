@@ -6,7 +6,7 @@
  *  downloads in 0.97 seconds.
 */
 #include <stdio.h>
-int main()
+int main(void)
 {
     float speed;    //下载速度
     float size;     //文件大小

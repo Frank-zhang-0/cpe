@@ -5,7 +5,7 @@
  *使用float类型，并用/作为除号。如果你愿意，可以要求用户以厘米为单位输入身高，并以米为单位显示出来。
 */
 #include <stdio.h>
-int main()
+int main(void)
 {
     char name[40];
     float tall;
