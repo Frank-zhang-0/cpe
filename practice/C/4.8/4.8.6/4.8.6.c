@@ -14,15 +14,19 @@ int main(void)
 {
     char lastname[20];  //姓
     char firstname[20]; //名
+    int last_width;     //姓_宽度
+    int first_width;    //名_宽度
 
     printf("请输入您的名: ");
     scanf("%s", firstname);
     printf("请输入你的姓: ");
     scanf("%s", lastname);
+    last_width = strlen(lastname);
+    first_width = strlen(firstname);
     printf("%s %s\n", firstname, lastname);
-    printf("%*zd %*zd\n", strlen(firstname), strlen(firstname), strlen(lastname), strlen(lastname));
+    printf("%*d %*d\n", first_width, first_width, last_width, last_width);
     printf("%s %s\n", firstname, lastname);
-    printf("%-*zd %-*zd\n", strlen(firstname), strlen(firstname), strlen(lastname), strlen(lastname));
+    printf("%-*d %-*d\n", first_width, first_width, last_width, last_width);
 
     return 0;
 }
