@@ -12,7 +12,7 @@
  * 在main()函数中使用一个循环让用户重复输入温度，当用户输入 q 或其他非数字时，循环结束。
  * scanf()函数返回读取数据的数量，所以如果读取数字则返回 1，如果读取 q 则不返回 1 。
  * 可以使用==运算符将scanf()的返回值和 1 作比较，测试两值是否相等。
-*/
+ */
 #include <stdio.h>
 void Temperatures(const double fahrenheit);
 int main(void)
